@@ -2185,10 +2185,10 @@ public class Jungle {
                                                         }
                                                     }
                                                 if (direction.equals("a")) {
-                                                    if (m >= 6) {
+                                                    if (n <= 0) {
                                                         System.out.println("Sorry,out of boundary!");
                                                         player = !player;
-                                                    }else {
+                                                    } else {
                                                         if ((m == 2 && (n == 0 || n == 8)) || (m == 3 && (n == 1 || n == 7)) || (m == 4 && (n == 0 || n == 8))) {
                                                             if (element[m][n - 1].equals("1鼠 ") || element[m][n - 1].equals(" 水 ") || !element[m][n - 1].substring(2, 3).equals(" ")) {
                                                                 System.out.println("error,move again");
@@ -2340,10 +2340,10 @@ public class Jungle {
                                                     }
                                                 }
                                                 if (direction.equals("a")) {
-                                                    if (m >= 6) {
+                                                    if (n <= 0) {
                                                         System.out.println("Sorry,out of boundary!");
                                                         player = !player;
-                                                    }else {
+                                                    } else {
                                                         if ((m == 2 && (n == 0 || n == 8)) || (m == 3 && (n == 1 || n == 7)) || (m == 4 && (n == 0 || n == 8))) {
                                                             if (element[m][n - 1].equals("1鼠 ") || element[m][n - 1].equals(" 　 ") || element[m][n - 1].equals("2猫 ")) {
                                                                 element[m][n - 1] = mid;
@@ -2463,10 +2463,10 @@ public class Jungle {
                                                     }
                                                 }
                                                 if (direction.equals("a")) {
-                                                    if (m >= 6) {
+                                                    if (n <= 0) {
                                                         System.out.println("Sorry,out of boundary!");
                                                         player = !player;
-                                                    }else {
+                                                    } else {
                                                         if ((m == 2 && (n == 0 || n == 8)) || (m == 3 && (n == 1 || n == 7)) || (m == 4 && (n == 0 || n == 8))) {
                                                             if (element[m][n - 1].equals("1鼠 ") || element[m][n - 1].equals(" 　 ") || element[m][n - 1].equals("2猫 ") || element[m][n - 1].equals("3狼 ")) {
                                                                 element[m][n - 1] = mid;
@@ -2590,10 +2590,10 @@ public class Jungle {
                                                     }
                                                 }
                                                 if (direction.equals("a")) {
-                                                    if (m >= 6) {
+                                                    if (n <= 0) {
                                                         System.out.println("Sorry,out of boundary!");
                                                         player = !player;
-                                                    }else {
+                                                    } else {
                                                         if ((m == 2 && (n == 0 || n == 8)) || (m == 3 && (n == 1 || n == 7)) || (m == 4 && (n == 0 || n == 8))) {
                                                             if (element[m][n - 1].equals("1鼠 ") || element[m][n - 1].equals(" 　 ") || element[m][n - 1].equals("2猫 ")
                                                                     || element[m][n - 1].equals("3狼 ") || element[m][n - 1].equals("4狗 ")) {
@@ -2721,10 +2721,10 @@ public class Jungle {
                                                     }
                                                 }
                                                 if (direction.equals("a")) {
-                                                    if (m >= 6) {
+                                                    if (n <= 0) {
                                                         System.out.println("Sorry,out of boundary!");
                                                         player = !player;
-                                                    }else {
+                                                    } else {
                                                         if ((m == 2 && (n == 0 || n == 8)) || (m == 3 && (n == 1 || n == 7)) || (m == 4 && (n == 0 || n == 8))) {
                                                             if (element[m][n - 1].equals("1鼠 ") || element[m][n - 1].equals(" 　 ") || element[m][n - 1].equals("2猫 ")
                                                                     || element[m][n - 1].equals("3狼 ") || element[m][n - 1].equals("4狗 ") || element[m][n - 1].equals("5豹 ")) {
